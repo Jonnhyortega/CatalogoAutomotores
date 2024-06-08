@@ -44,7 +44,7 @@
 
 h1 {
   font-family: "Varela Round", sans-serif;
-  font-size: 4rem;
+  font-size: 7rem;
   margin: 0 auto 1em auto;
   text-align: center;
   filter: drop-shadow(5px 5px 5px black);
@@ -108,7 +108,26 @@ h4 {
     width: 100%;
   }
   h4 {
-    font-size: 4em;
+    font-size: 10em;
+    margin: 0;
+  }
+
+  h2{
+    font-size: 8rem;
+    margin: 0;
+  }
+
+  #links > a {
+    font-size: 4rem;
+  }
+
+  #boxInformation {
+    border: none;
+    padding: 1rem 0;
+    box-shadow: none;
+  }
+  #boxInformation > p{
+    font-size: 4rem;
   }
 }
 
