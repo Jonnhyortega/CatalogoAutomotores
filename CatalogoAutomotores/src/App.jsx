@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import CarForm from "./carForm";
+// import CarForm from "./carForm";
 import { calculatorInt } from "./calculator";
 import "./App.css";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import MyNavbar from './components/Navbar'
 import {
   corsa,
   clio2013,
@@ -19,40 +20,14 @@ import {
 } from "./assets/autosVar";
 
 const App = () => {
-  const [result, setResult] = useState(null);
-
-  const handleCalculate = (advancePayment, selectedCar) => {
-    const result = calculatorInt(advancePayment, selectedCar);
-    setResult(result);
-  };
 
   return (
     <div>
-      {/* <h1>Calculadora de Autos</h1>
-      <CarForm onCalculate={handleCalculate} />
 
-      {result && (
-         <div id="result">
-            <h2>Resultado del cálculo:</h2>
-            <div dangerouslySetInnerHTML={{ __html: result }}></div>
-         </div>
-      )} */}
 
+      <MyNavbar />
       <div id="galerys">
-        <h1>Catalogo 2024</h1>
-        <div id="links">
-          <a href="#corsa">Corsa Clasic 2016</a>
-          <a href="#clio">Clio Campus 2013</a>
-          <a href="#prisma">Prisma Lt 2018</a>
-          <a href="#suran">Suran Confortline 2016</a>
-          <a href="#c4">C4 Lounge</a>
-          <a href="#voyage">Voyage Trendline 2015</a>
-          <a href="#punto">Punto Atractive</a>
-          <a href="#ecoSport">Eco Sport 2012</a>
-          <a href="#focus">Focus SE 2015</a>
-          <a href="#partner">Partner 2016</a>
-          <a href="#model_308">308 2015</a>
-        </div>
+        
         <div id="corsa" className="car">
           <h2>Chevrolet Corsa Clasic</h2>
           <h4>$10.000.000</h4>
