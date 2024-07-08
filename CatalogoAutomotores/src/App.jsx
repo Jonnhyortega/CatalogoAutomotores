@@ -11,7 +11,6 @@ import {
   prisma2016,
   suran2016,
   c4,
-  voyage2015,
   punto2011,
   ecosport2012,
   focus2014,

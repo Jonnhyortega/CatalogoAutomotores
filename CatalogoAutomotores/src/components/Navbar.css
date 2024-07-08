@@ -29,16 +29,7 @@
   font-family: "Varela Round", sans-serif;
 }
 
-#navLink:hover {
-  color: transp;
-}
 
-.navbarCustom {
-  background: radial-gradient(
-    rgb(4, 3, 40) 7.5%,
-    rgb(227, 227, 227) 88.7%
-  ); 
-}
 
 @media (max-width: 992px) {
   .navbarCustom {
@@ -51,5 +42,9 @@
       background-size: cover; 
     }
     
+  }
+
+  .dropdown-item {
+    color: white !important;
   }
 }

@@ -2,15 +2,7 @@
 *{
   padding: 0;margin: 0;box-sizing: border-box;
 }
-#root {
-  /* max-width: 1280px; */
-  margin: 0 auto;
-  background: radial-gradient(
-    rgb(4, 3, 40) 7.5%,
-    rgb(227, 227, 227) 88.7%
-  );  
-  box-shadow: 1px 1px 5px 2px black;
-}
+
 
 #galerys {
   margin: 5em auto;
@@ -55,33 +47,35 @@
 }
 
 .car {
-  margin-top: 2rem;
   color: white;
-  border-bottom: 5px solid violet;
-  
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .car > h2 {
   font-size: 4rem;
   font-family: "Anton", sans-serif;
   margin: 0 auto;
-  text-align: center;
-  filter: drop-shadow(1px 1px 1px grey);
+  filter: drop-shadow(1px 1px 1px rgb(42, 42, 42));
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+    text-align: left;
+
 }
 
 #boxInformation {
   text-align: justify;
-  margin: 0 auto 4em auto;
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
+  width: 100%;
+
 }
 #boxInformation > p {
   border-bottom: 1px solid white;
   text-align: justify;
   margin: 0 auto;
-  width: 30%;
   color: black;
   filter: drop-shadow(1px 1px 1px violet);
 }
@@ -92,16 +86,16 @@
   font-style: normal;
   font-size: 5rem;
   margin: 0 auto;
-  text-align: center;
   margin: 0 auto 1rem auto;
+  filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+
 }
 
 
 
  @media (max-width: 600px) {
-  #boxInformation {
-    width: 100%;
-    text-align: justify;  
+  .car {
+    width: auto;
   }
   h4 {
     font-size: 5em;

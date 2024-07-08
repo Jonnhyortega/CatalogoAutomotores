@@ -298,60 +298,6 @@ export const c4 = [
   },
 ];
 
-// Voyage 2015
-import voyage1 from "./img/autos/Voyage2015/voyage1.jpeg";
-import voyage2 from "./img/autos/Voyage2015/voyage2.jpeg";
-import voyage3 from "./img/autos/Voyage2015/voyage3.jpeg";
-import voyage4 from "./img/autos/Voyage2015/voyage4.jpeg";
-import voyage5 from "./img/autos/Voyage2015/voyage5.jpeg";
-import voyage6 from "./img/autos/Voyage2015/voyage6.jpeg";
-import voyage7 from "./img/autos/Voyage2015/voyage7.jpeg";
-import voyage8 from "./img/autos/Voyage2015/voyage8.jpeg";
-import voyage9 from "./img/autos/Voyage2015/voyage9.jpeg";
-import voyage10 from "./img/autos/Voyage2015/voyage10.jpeg";
-export const voyage2015 = [
-  {
-    original: voyage1,
-    thumbnail: voyage1,
-  },
-  {
-    original: voyage2,
-    thumbnail: voyage2,
-  },
-  {
-    original: voyage3,
-    thumbnail: voyage3,
-  },
-  {
-    original: voyage4,
-    thumbnail: voyage4,
-  },
-  {
-    original: voyage5,
-    thumbnail: voyage5,
-  },
-  {
-    original: voyage6,
-    thumbnail: voyage6,
-  },
-  {
-    original: voyage7,
-    thumbnail: voyage7,
-  },
-  {
-    original: voyage8,
-    thumbnail: voyage8,
-  },
-  {
-    original: voyage9,
-    thumbnail: voyage9,
-  },
-  {
-    original: voyage10,
-    thumbnail: voyage10,
-  },
-];
-
 // Punto 2011
 import punto1 from "./img/autos/Punto2011/punto1.jpeg";
 import punto2 from "./img/autos/Punto2011/punto2.jpeg";

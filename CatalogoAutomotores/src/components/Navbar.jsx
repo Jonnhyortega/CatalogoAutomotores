@@ -18,7 +18,6 @@ const MyNavbar = () => {
               <NavDropdown.Item href="#prisma">Prisma Lt 2018</NavDropdown.Item>
               <NavDropdown.Item href="#suran">Suran Confortline 2016</NavDropdown.Item>
               <NavDropdown.Item href="#c4">C4 Lounge 2014</NavDropdown.Item>
-              <NavDropdown.Item href="#voyage">Voyage Trendline 2015</NavDropdown.Item>
               <NavDropdown.Item href="#punto">Punto Atractive 2011</NavDropdown.Item>
               <NavDropdown.Item href="#ecoSport">Eco Sport XLS 2012</NavDropdown.Item>
               <NavDropdown.Item href="#focus">Focus SE 2015</NavDropdown.Item>
