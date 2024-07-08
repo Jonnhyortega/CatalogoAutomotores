@@ -30,7 +30,7 @@ const App = () => {
         
         <div id="corsa" className="car">
           <h2>Chevrolet Corsa Clasic</h2>
-          <h4>$10.000.000</h4>
+          <h4>$11.500.000</h4>
           <div id="boxInformation">
             <p>Modelo 2016</p>
             <p>Km 92.000</p>
@@ -49,7 +49,7 @@ const App = () => {
 
         <div id="clio" className="car">
           <h2>Renault Clio Campus</h2>
-          <h4>$9.500.000</h4>
+          <h4>$10.900.000</h4>
           <div id="boxInformation">
             <p>Modelo 2013</p>
             <p>Km 130.000</p>
@@ -68,7 +68,7 @@ const App = () => {
 
         <div id="prisma" className="car">
           <h2>Chevrolet Prisma LT</h2>
-          <h4>$13.500.000</h4>
+          <h4>$14.500.000</h4>
           <div id="boxInformation">
             <p>Modelo 2018</p>
             <p>Km 82.000</p>
@@ -87,7 +87,7 @@ const App = () => {
 
         <div id="suran" className="car">
           <h2>Wolkswagen Suran Confortline</h2>
-          <h4>$12.500.000</h4>
+          <h4>$13.500.000</h4>
           <div id="boxInformation">
             <p>Modelo 2016</p>
             <p>Km 79.000</p>
@@ -107,7 +107,7 @@ const App = () => {
 
         <div id="c4" className="car">
           <h2>Citroen C4 Lounge</h2>
-          <h4>$12.000.000</h4>
+          <h4>$13.500.000</h4>
           <div id="boxInformation">
             <p>Modelo 2015</p>
             <p>Km 80.000</p>
@@ -124,28 +124,9 @@ const App = () => {
           />
         </div>
 
-        <div id="voyage" className="car">
-          <h2>Wolkswagen Voyage Trendline</h2>
-          <h4>$10.000.000</h4>
-          <div id="boxInformation">
-            <p>Modelo 2015</p>
-            <p>Km 96.000</p>
-            <p>Nafta/Gnc</p>
-            <p>Motor 1.6</p>
-          </div>
-          <ImageGallery
-            items={voyage2015}
-            showThumbnails={true}
-            showFullscreenButton={true}
-            showPlayButton={false}
-            autoPlay={false}
-            infinite={true}
-          />
-        </div>
-
         <div id="punto" className="car">
           <h2>Fiat Punto Atractive</h2>
-          <h4>$9.000.000</h4>
+          <h4>$10.000.000</h4>
           <div id="boxInformation">
             <p>Modelo 2011</p>
             <p>Km 120.000</p>
@@ -164,7 +145,7 @@ const App = () => {
 
         <div id="ecoSport" className="car">
           <h2>Ford Eco Sport XL</h2>
-          <h4>$10.000.000</h4>
+          <h4>$11.500.000</h4>
           <div id="boxInformation">
             <p>Modelo 2012</p>
             <p>Km 110.000</p>
@@ -183,7 +164,7 @@ const App = () => {
 
         <div id="focus" className="car">
           <h2>Ford Focus SE PLUS</h2>
-          <h4>$12.500.000</h4>
+          <h4>$15.000.000</h4>
           <div id="boxInformation">
             <p>Modelo 2014</p>
             <p>Km 112.000</p>
@@ -201,7 +182,7 @@ const App = () => {
 
         <div id="partner" className="car">
           <h2>Peugeot Partner </h2>
-          <h4>$12.000.000</h4>
+          <h4>$16.000.000</h4>
           <div id="boxInformation">
             <p>Modelo 2016</p>
             <p>Km 80.000</p>
@@ -220,7 +201,7 @@ const App = () => {
 
         <div id="model_308" className="car">
           <h2>Peugeot 308 Feline</h2>
-          <h4>$13.000.000</h4>
+          <h4>$16.000.000</h4>
           <div id="boxInformation">
             <p>Modelo 2015</p>
             <p>Km 70.000</p>

@@ -12,16 +12,16 @@
 
 .dropdown-menu {
   background-color: transparent !important;
-  backdrop-filter: blur(20px) saturate(40%) brightness(70%) !important;
 }
 
 .dropdown-item {
-  color: white !important;
+  color: black !important;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .dropdown-item:active {
-  background-color: rgba(65, 5, 72, 1) !important;
+  background-color: rgba(65, 5, 72, 0.202) !important;
 }
 #navLink {
   color: white;
@@ -30,16 +30,14 @@
 }
 
 #navLink:hover {
-  color: violet;
+  color: transp;
 }
 
 .navbarCustom {
-  background-image: linear-gradient(
-    85.2deg,
-    rgba(33, 3, 40, 1) 7.5%,
-    rgba(65, 5, 72, 1) 88.7%
-  );
-  box-shadow: 1px 1px 5px 1px violet;
+  background: radial-gradient(
+    rgb(4, 3, 40) 7.5%,
+    rgb(227, 227, 227) 88.7%
+  ); 
 }
 
 @media (max-width: 992px) {
@@ -50,7 +48,7 @@
     .custom-toggler-icon,
     .navbar-toggler {
       background-image: url('/CatalogoAutomotores/src/assets/img/logos/toyota.png');
-      background-size: cover; /* Ajusta el tamaño del ícono */  
+      background-size: cover; 
     }
     
   }

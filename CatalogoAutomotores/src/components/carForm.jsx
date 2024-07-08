@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { cars } from "./ineterestCalculator";
+import { cars } from "../ineterestCalculator";
 
 const CarForm = ({ onCalculate }) => {
   const [advancePayment, setAdvancePayment] = useState("");

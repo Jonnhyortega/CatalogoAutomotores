@@ -51,6 +51,7 @@ export const corsa = [
     thumbnail: corsa10,
   },
 ];
+
 //  CLIO 2013
 import clio1 from "./img/autos/Clio2013/clio1.jpeg";
 import clio2 from "./img/autos/Clio2013/clio2.jpeg";
@@ -360,7 +361,6 @@ import punto5 from "./img/autos/Punto2011/punto5.jpeg";
 import punto6 from "./img/autos/Punto2011/punto6.jpeg";
 import punto7 from "./img/autos/Punto2011/punto7.jpeg";
 import punto8 from "./img/autos/Punto2011/punto8.jpeg";
-
 export const punto2011 = [
   {
     original: punto1,
@@ -404,7 +404,6 @@ import ecosport4 from "./img/autos/Ecosport2012/ecosport4.jpeg";
 import ecosport5 from "./img/autos/Ecosport2012/ecosport5.jpeg";
 import ecosport6 from "./img/autos/Ecosport2012/ecosport6.jpeg";
 import ecosport7 from "./img/autos/Ecosport2012/ecosport7.jpeg";
-
 export const ecosport2012 = [
   {
     original: ecosport1,
@@ -444,7 +443,6 @@ import focus3 from "./img/autos/Focus2014/focus3.jpeg";
 import focus4 from "./img/autos/Focus2014/focus4.jpeg";
 import focus5 from "./img/autos/Focus2014/focus5.jpeg";
 import focus6 from "./img/autos/Focus2014/focus6.jpeg";
-
 export const focus2014 = [
   {
     original: focus1,
@@ -555,3 +553,5 @@ export const model3082015 = [
     thumbnail: model3088,
   },
 ];
+
+
