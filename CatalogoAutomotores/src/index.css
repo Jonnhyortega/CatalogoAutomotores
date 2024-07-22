@@ -1,6 +1,8 @@
 body{
-  background: radial-gradient(
+  /* background: radial-gradient(
     rgb(4, 3, 40) 7.5%,
     rgb(227, 227, 227) 88.7%
-  );  
+  );   */
+  background-color: black;
+  padding: 1em;
 }

@@ -74,10 +74,12 @@
 }
 #boxInformation > p {
   border-bottom: 1px solid white;
-  text-align: justify;
+  text-align: center;
   margin: 0 auto;
   color: black;
-  filter: drop-shadow(1px 1px 1px violet);
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: white;
 }
 
 .car > h4 {
@@ -116,7 +118,7 @@
     box-shadow: none;
   }
   #boxInformation > p{
-    text-align: justify;
+    text-align: center;
   }
 }
 
@@ -128,3 +130,6 @@
     font-size: 3em;
   }
 } 
+
+
+
