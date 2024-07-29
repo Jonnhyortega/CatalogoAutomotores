@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import Navbar from './components/Navbar';
+import Navbar from "./components/Navbar";
 import { stock } from "./Js/autos";
 import "./App.css";
 
-// Función de utilidad para formatear números con puntos como separadores de miles
 const formatPrice = (price) => {
-  return price.toLocaleString('es-AR');
+  return price.toLocaleString("es-AR");
 };
 
 const App = () => {
@@ -23,13 +22,14 @@ const App = () => {
       <div id="galerys">
         {selectedCar && (
           <div className="car">
+            <img src={selectedCar.make} alt="Logo" />
             <h2>{selectedCar.version}</h2>
-            <h4>${formatPrice(selectedCar.price)}</h4>
             <div id="boxInformation">
-              <p>Modelo {selectedCar.model}</p>
-              <p>Km {formatPrice(selectedCar.kilometers)}</p>
-              <p>Motor {selectedCar.engine}</p>
-              <p>{selectedCar.fuel}</p>
+              <p>Precio de lista: ${formatPrice(selectedCar.price)}</p>
+              <p>Modelo: {selectedCar.model}</p>
+              <p>Kilometraje: {formatPrice(selectedCar.kilometers)}</p>
+              <p>Motor: {selectedCar.engine}</p>
+              <p>Combustible: {selectedCar.fuel}</p>
             </div>
             <ImageGallery
               items={selectedCar.pictures}

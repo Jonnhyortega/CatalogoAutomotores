@@ -383,7 +383,7 @@ export const stock = [
     version: "Vento TSI",
     kilometers: 98000,
     engine: "2.0",
-    fuel: "Nafta/GNC",
+    fuel: "Nafta",
     price: 18000000,
     pictures: [
       {

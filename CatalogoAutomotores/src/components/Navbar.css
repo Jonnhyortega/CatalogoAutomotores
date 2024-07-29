@@ -6,23 +6,10 @@
   font-family: "Varela Round", sans-serif;
 }
 
-#basic-nav-dropdown:hover {
-  color: violet;
-}
-
-.dropdown-menu {
-  background-color: transparent !important;
-}
-
-.dropdown-item {
-  color: black !important;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
 .dropdown-item:active {
   background-color: rgba(65, 5, 72, 0.202) !important;
 }
+
 #navLink {
   color: white;
   font-weight: 800;

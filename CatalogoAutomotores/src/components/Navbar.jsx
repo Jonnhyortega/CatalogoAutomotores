@@ -4,13 +4,12 @@ import { stock } from "../Js/autos";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MyNavbar = ({ onCarSelect }) => {
-  const [isNavOpen, setIsNavOpen] = useState(false); // Estado para controlar la apertura del menú
+  const [isNavOpen, setIsNavOpen] = useState(false); 
 
-  // Handler to stop event propagation and close the menu
   const handleCarSelect = (event, car) => {
-    event.stopPropagation(); // Prevents the event from propagating up the DOM
+    event.stopPropagation(); 
     onCarSelect(car);
-    setIsNavOpen(false); // Cierra el menú desplegable
+    setIsNavOpen(false); 
   };
 
   return (
@@ -18,7 +17,7 @@ const MyNavbar = ({ onCarSelect }) => {
       <Container>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
-          onClick={() => setIsNavOpen(!isNavOpen)} // Cambia el estado de apertura
+          onClick={() => setIsNavOpen(!isNavOpen)}
         />
         <Navbar.Collapse id="basic-navbar-nav" in={isNavOpen}>
           <Nav className="me-auto">
@@ -27,7 +26,7 @@ const MyNavbar = ({ onCarSelect }) => {
                 key={index}
                 onClick={(event) => handleCarSelect(event, car)}
               >
-                {car.version} {car.model}
+                {car.version}
               </Nav.Link>
             ))}
           </Nav>
