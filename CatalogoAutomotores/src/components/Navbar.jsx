@@ -15,7 +15,7 @@ const MyNavbar = ({ onCarSelect }) => {
   };
 
   return (
-    <Navbar bg="black" variant="dark" expand="lg" fixed="top">
+    <Navbar bg="success" variant="dark" expand="lg" fixed="top">
       <Container>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
